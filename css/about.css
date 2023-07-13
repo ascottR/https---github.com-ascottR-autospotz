@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 40px;
+    opacity: 0.8;
+  }
+  
+  .nav-links {
+    list-style: none;
+    
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    padding:  15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .login-signup {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  .login-signup button{
+    background-color: #ffd836;
+    border: none;
+    color: #33444C;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  
+  .login-signup button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .navbar a:hover{
+    color: #ffd836;
+  }
+
+  body{
+    background-color: white;
+  }
+
+
+  #bigpicture img {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  }
+  
+      /*height: auto; */
+  
+  /* Content */
+
+.passage{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 80px;
+    font-size: 20px;
+}
+
+.founders{
+    display: flex;
+    justify-content: center;
+}
+
+.foundersinfo{
+    padding:60px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 22px;
+}
+#team{
+    color: red;
+}
+
+
+#header1,#header2, #header3, #compliment1{
+    text-align: center;
+    padding:20px;
+}
+
+.tweets{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+}
+
+.moreInfo{
+    text-align: center;
+}
+
+  /* Style the footer */
+  
+  footer {
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+  }

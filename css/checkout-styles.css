@@ -1,0 +1,82 @@
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    color: #333;
+    }
+
+.content{
+    background-color: #f3f3f3;
+    color: #333; 
+    padding: 40px;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;   
+
+  }
+  /* CSS for Checkout Details */
+.Checkout {
+    padding: 30px;
+    background-color: #efefef;
+
+  }
+  
+  
+  .Checkout label {
+    color:#4c4c4c;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+
+  .Checkout label span{
+    color:  #1d1d1d;
+    font-weight: 600;
+    margin-left: 40px; 
+    padding-right: 100px;
+    
+  }
+  
+  .Checkout input[type="hidden"] {
+    display: none;
+  }
+  
+  .Checkout select {
+    color: #1d1d1d;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  .btn-container{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .Checkout button {
+    margin: 20px 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: #4c4c4c;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Checkout button[type="button"] {
+    background-color: #f44336;
+  }
+  
+  .Checkout button:hover {
+    opacity: 0.8;
+  }
+
+  

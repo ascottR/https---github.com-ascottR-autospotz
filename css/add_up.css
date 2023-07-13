@@ -1,0 +1,118 @@
+body {
+  background-color: #1d2634;
+}
+
+.adduser_form { /*whole form ajst*/
+  color: #818181;
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  margin: 200px auto;
+}
+
+.adduser_form input { /*for change input bracket styles*/
+  width: 60%;
+  float: right;
+  background-color: #263043;
+  border-radius: 3px;
+  border: 1px;
+  height: 25px;
+  color: whitesmoke;
+}
+
+.adduser_form .leg { /*legend title styles*/
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.submit_adduser { /*save button styles*/
+  background-color: green;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 1px;
+  height: 30px;
+  width: 20%;
+}
+
+
+.reset_adduser { /*reset button styles*/
+  background-color: blueviolet;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 1px;
+  height: 30px;
+  width: 20%;
+}
+
+.back a { /*back button styles*/
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10%;
+  font-family: monospace;
+  color: white;
+  font-size: 15px;
+  border-radius: 70px;
+  background-color: #263849;
+}
+
+.back a:hover {
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.adminbk { /*whole back button*/
+  margin-left: 3px;
+  margin-top: 1.5%;
+}
+
+
+
+
+.modifieduser_form {
+  color: #818181;
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  margin: 200px auto;
+}
+
+.modifieduser_form input {
+  width: 60%;
+  float: right;
+  background-color: #263043;
+  border-radius: 3px;
+  border: 1px;
+  height: 25px;
+  color: whitesmoke;
+}
+
+
+
+.modifieduser_form .leg {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+
+
+.save_modifieduser {
+  background-color: green;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 1px;
+  height: 30px;
+  width: 20%;
+
+}
+
+.reset_modifieduser {
+
+  background-color: blueviolet;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 1px;
+  height: 30px;
+  width: 20%;
+
+}
+
